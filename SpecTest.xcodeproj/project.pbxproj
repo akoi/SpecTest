@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4906691A1F85FA00D4FF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7661A1B8E2900C54659 /* ViewController.swift */; };
 		3ACDF7651A1B8E2900C54659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7641A1B8E2900C54659 /* AppDelegate.swift */; };
 		3ACDF7671A1B8E2900C54659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7661A1B8E2900C54659 /* ViewController.swift */; };
 		3ACDF76A1A1B8E2900C54659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF7681A1B8E2900C54659 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		3ACDF7A31A1B8E9300C54659 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACDF7911A1B8E7900C54659 /* Quick.framework */; };
 		3ACDF7A41A1B8E9E00C54659 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACDF79C1A1B8E8300C54659 /* Nimble.framework */; };
 		3ACDF7A61A1B8ED200C54659 /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7A51A1B8ED200C54659 /* ViewControllerSpec.swift */; };
-		3ACDF7A71A1B8ED600C54659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7661A1B8E2900C54659 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -376,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ACDF7A71A1B8ED600C54659 /* ViewController.swift in Sources */,
+				3A4906691A1F85FA00D4FF69 /* ViewController.swift in Sources */,
 				3ACDF7A61A1B8ED200C54659 /* ViewControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpecTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -564,6 +565,7 @@
 				3ACDF7801A1B8E2900C54659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ACDF7811A1B8E2900C54659 /* Build configuration list for PBXNativeTarget "SpecTestTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +574,7 @@
 				3ACDF7831A1B8E2900C54659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

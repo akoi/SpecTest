@@ -19,6 +19,8 @@ class ViewControllerSpecs: QuickSpec {
         beforeEach {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             viewController = storyboard.instantiateViewControllerWithIdentifier("ViewController") as ViewController
+            viewController.beginAppearanceTransition(true, animated: false)
+            viewController.endAppearanceTransition()
         }
         
         describe("the view controller after initialization") {
