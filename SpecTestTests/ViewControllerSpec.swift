@@ -6,7 +6,6 @@
 //
 //
 
-import SpecTest
 import UIKit
 import Quick
 import Nimble
@@ -17,10 +16,9 @@ class ViewControllerSpecs: QuickSpec {
         var viewController: ViewController!
         
         beforeEach {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let storyboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
             viewController = storyboard.instantiateViewControllerWithIdentifier("ViewController") as ViewController
-            viewController.beginAppearanceTransition(true, animated: false)
-            viewController.endAppearanceTransition()
+            viewController.loadView()
         }
         
         describe("the view controller after initialization") {

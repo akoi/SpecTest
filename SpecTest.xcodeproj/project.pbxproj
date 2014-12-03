@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1E31CD1A2F5513008C9665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDF7681A1B8E2900C54659 /* Main.storyboard */; };
 		3A4906691A1F85FA00D4FF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7661A1B8E2900C54659 /* ViewController.swift */; };
 		3ACDF7651A1B8E2900C54659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7641A1B8E2900C54659 /* AppDelegate.swift */; };
 		3ACDF7671A1B8E2900C54659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF7661A1B8E2900C54659 /* ViewController.swift */; };
@@ -336,7 +337,7 @@
 		3ACDF7A21A1B8E8300C54659 /* Nimble-OSXTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Nimble-OSXTests.xctest";
+			path = NimbleTests.xctest;
 			remoteRef = 3ACDF7A11A1B8E8300C54659 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -357,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1E31CD1A2F5513008C9665 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
